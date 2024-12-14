@@ -1,10 +1,11 @@
 import Landing from "./component/Landing/Landing";
+import { Service } from "./component/Services/Service";
 
 export default function Home() {
   return (
     <div>
       <Landing />
-      <div className="h-screen">dsf</div>
+      <Service />
     </div>
   );
 }
