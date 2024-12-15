@@ -1,4 +1,5 @@
 import Landing from "./component/Landing/Landing";
+import { Notice } from "./component/Notice/Notice";
 import { Service } from "./component/Services/Service";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <Landing />
       <Service />
+      <Notice />
     </div>
   );
 }
