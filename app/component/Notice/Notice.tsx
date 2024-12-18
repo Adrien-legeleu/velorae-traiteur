@@ -81,7 +81,7 @@ const ReviewCard = ({
   return (
     <figure
       className={cn(
-        "relative w-72 cursor-pointer overflow-hidden rounded-xl border p-4",
+        "relative w-80 cursor-pointer overflow-hidden rounded-xl border p-4",
         // light styles
         "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
         // dark styles

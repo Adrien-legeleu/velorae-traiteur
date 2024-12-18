@@ -1,3 +1,4 @@
+import Gallery from "./component/Gallery/Gallery";
 import Landing from "./component/Landing/Landing";
 import { Notice } from "./component/Notice/Notice";
 import { Service } from "./component/Services/Service";
@@ -8,6 +9,7 @@ export default function Home() {
       <Landing />
       <Service />
       <Notice />
+      <Gallery />
     </div>
   );
 }
